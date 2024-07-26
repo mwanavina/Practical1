@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(13, 13, 13);
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.header{
+  height: 3rem;
+  background-color: #21aaeee1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.content{
+  margin-left: 30vh;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+.content{
+  margin-left: 30vh;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+.sidebar{
+  position: fixed;
+  height: 100vh;
+  width: 30vh;
+  background-color: rgb(240, 242, 245);
+}
+.sidebar a{
+  color: rgb(13, 13, 13);
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem 0;
+  padding-left: 1.5rem;
+ 
+}
+.sidebar a:hover{
+  background-color: #d4ecf8;
+} 
+/* my css */
+.dashboardInfor{
+  display: flex;
+  flex-direction: row;
+    flex-grow: 0;
+      flex-wrap: wrap;
+}
+.cards{
+  background-color: rgb(21, 216, 223);
+  width: 20vw;
+  height: 10vh;
+  margin-right: 3px;
+  margin-left: 3px;
+box-shadow: 0px 7px 38px 1px rgba(209, 194, 209, 1);
+  display: flex;
+}
+.cardData{
+  padding-left: 15px;
+}
+.icons{
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  background-color: #dddddd;
+  /* border-right: 1px solid black; */
+}
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+/* 
+tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+.Description{
+  border-bottom: 2px solid black;
+  margin-bottom: 5px;
+}
+.borderColours{
+  /* background-color: aqua; */
+padding: 12px;
+border-radius: 6px;
+border: 2px solid black;
+}
+
+
+
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  width: 20vw;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  height: 10vh;
+}
+button {
+  background-color: rgb(0, 183, 255);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(88, 149, 241);
+}
+
+.product-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inside-product-card-container {
+  padding: 2px 16px;
+}
+h4{
+  font-size: 30px;
+}
+.editBTN{
+  font-size: 19px;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 8vw;
+}
+.editBTN:hover {
+  background-color: rgb(88, 172, 241);
+}
+.message1{
+  margin-top: 1rem;
+  background-color: rgb(138, 230, 138);
+  height: 6vh;
+  margin-bottom: 3px;
+  border-left: 8px solid green;
+}
+.message2 {
+  background-color: rgb(231, 158, 158);
+  height: 6vh;
+  border-left: 8px solid rgb(238, 69, 69);
+}
+.productMsg{
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.btn2{
+  background-color: white;
+  color: black;
+  border: 2px solid  black;
+}
+.btn3 {
+  background-color: rgba(243, 200, 207, 0.911);
+  color: black;
+  border: 4px solid pink;
+}
+.btn4 {
+  background-color: rgb(199, 15, 199);
+  color: black;
+  border: 4px solid rgb(199, 15, 199);
+}

@@ -1,0 +1,33 @@
+/* Mobile (Portrait) */
+      @media screen and (max-width: 480px) {
+        /* Styles for small screens */
+      }
+      /* Mobile (Landscape) */
+      @media screen and (min-width: 481px) and (max-width: 767px) {
+        /* Styles for larger mobile screens */
+      }
+
+      /* Tablet (Portrait) */
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        /* Styles for tablets in portrait mode */
+      }
+
+      /* Tablet (Landscape) */
+      @media screen and (min-width: 1025px) and (max-width: 1280px) {
+        /* Styles for tablets and smaller desktops */
+      }
+
+      /* Desktop (Small) */
+      @media screen and (min-width: 1281px) and (max-width: 1440px) {
+        /* Styles for small desktop screens */
+      }
+
+      /* Desktop (Large) */
+      @media screen and (min-width: 1441px) and (max-width: 1920px) {
+        /* Styles for larger desktop screens */
+      }
+
+      /* Extra Large Screens */
+      @media screen and (min-width: 1921px) {
+        /* Styles for extra large screens */
+      }
